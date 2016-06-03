@@ -1,8 +1,12 @@
 import Battle from './battle.jsx';
+import Header from './header.jsx';
 import React from 'react';
 
 function Layout() {
-  return <Battle/>;
+  return <div>
+    <Header />
+    <Battle />
+  </div>;
 }
 
 Layout.propTypes = {
