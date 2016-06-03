@@ -1,26 +1,46 @@
 
+@radius: 3px;
+@bluetwitter: rgb(29, 161, 242);
 
 body { 
   background: /*rgba(0, 0, 255, 0.4),*/ url('images/stade.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  * { font-family: lato; }
+  p { margin: 0; }
 
   #hashtagbattle {
-    margin: auto;
+    margin: 120px auto 15px auto;
 
     .container-battle {
       height: 100px;
-      background: rgba(255, 255, 255, 0.5);
-      .plots {
-        height: 45px;
-        margin-top: 55px;
-        border-radius: 3px;
-      }
-      .fighter1 { float: left; }
-      .fighter2 { float: right; }
       .img1 { float: left; }
       .img2 { float: right; }
+      .fighter1 { float: left; }
+      .fighter2 { float: right; }
+      .fighter1, .fighter2 { height: 100px; }
+      .plot1, .plot2 {
+        height: 41px;
+        border-radius: @radius;
+      }
+      span { font-size: 20px; }
+      p { height: 27px; }
+      p.hashtag { color: @bluetwitter; }
+      p.count {
+        color: white;
+        height: 32px;
+      }
+      p.p-right { text-align: right; }
+      p.hashtag, p.count {
+        font-size: 25px;
+        font-weight: bolder;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: @radius;
+      }
     }
   }
 }

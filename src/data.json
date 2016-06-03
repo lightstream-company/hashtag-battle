@@ -1,0 +1,13 @@
+[
+  {
+    picture: 'http://www.lexilogos.com/images/gb_drapeau.gif',
+    hashtag: '#trololo',
+    count: 9879,
+    color: '#FFA51C'
+  }, {
+    picture: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/langfr-225px-Flag_of_Germany.svg.png',
+    hashtag: '#trululu',
+    count: 3478,
+    color: '#29FF56'
+  }
+]
