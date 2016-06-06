@@ -1,23 +1,21 @@
 import React, {PropTypes} from 'react';
 
 function Battle(){
-
-  var styleContainer = {
-    width: 1100,
-    margin: 'auto'
-  };
-
+  
   const hashtag1 = '#Trololo';
   const hashtag2 = '#Trululu';
   const color1 = 'white';
   const color2 = 'green';
   const count1 = 256;
   const count2 = 678;
-  
+
+  const styleContainer = {
+    maxWidth: 1100,
+    margin: 'auto'
+  };  
   const count1Percent = 100 * count1 / ( count1 + count2 );
   const count2Percent = 100 * count2 / ( count1 + count2 );
-  const widthPlots = styleContainer.width - 200 - 45;
-
+  const widthPlots = 1100 - 200 - 45;
   const styleFighter1 = {
     marginLeft: 15,
     width: ( widthPlots / 100 ) * count1Percent
@@ -26,6 +24,7 @@ function Battle(){
     marginRight: 15,
     width: ( widthPlots / 100 ) * count2Percent
   };
+
   const stylePlot1 = {
     background: color1
   };
@@ -64,6 +63,5 @@ function Battle(){
 }
 
 Battle.propTypes = {
-  test: PropTypes.Number
 };
 export default Battle;
