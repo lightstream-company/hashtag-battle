@@ -1,12 +1,12 @@
 [
   {
-    picture: 'http://www.lexilogos.com/images/gb_drapeau.gif',
-    hashtag: '#trololo',
+    picture: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-338px-Flag_of_France.svg.png',
+    hashtag: '#France',
     count: 9879,
     color: '#FFA51C'
   }, {
-    picture: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/langfr-225px-Flag_of_Germany.svg.png',
-    hashtag: '#trululu',
+    picture: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/langfr-338px-Flag_of_Romania.svg.png',
+    hashtag: '#Romania',
     count: 3478,
     color: '#29FF56'
   }

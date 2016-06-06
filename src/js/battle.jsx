@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react';
 
-function Battle(){
-
+function Battle(props){
+  const { fighters } = props;
   const hashtag1 = '#Trololo';
   const hashtag2 = '#Trululu';
   const color1 = 'white';
@@ -15,7 +15,7 @@ function Battle(){
   };  
   const count1Percent = 100 * count1 / ( count1 + count2 );
   const count2Percent = 100 * count2 / ( count1 + count2 );
-  const fighters = {
+  const allFighters = {
     float: 'left',
     width: 100 + '%'
   };
@@ -57,11 +57,10 @@ function Battle(){
   };
 
   return <div className="container-battle" style={styleContainer}>
-    <img className="img1" src="http://www.lexilogos.com/images/gb_drapeau.gif" />
+    <img className="img1" src={"http://www.lexilogos.com/images/gb_drapeau.gif"} />
     <img className="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/langfr-225px-Flag_of_Germany.svg.png" />
-    
     <div className="content-fighters">
-      <div style={fighters} className="fighter1">
+      <div style={allFighters} className="fighter1">
         <div className="hashtags">
           <p style={Pleft} className="hashtag">{hashtag1}</p>
           <p style={Pright} className="hashtag p-right">{hashtag2}</p>
@@ -84,10 +83,10 @@ function Battle(){
         </div>
       </div>
     </div>
-
   </div>;
 }
 
 Battle.propTypes = {
+  fighters: PropTypes.array.isRequired
 };
 export default Battle;

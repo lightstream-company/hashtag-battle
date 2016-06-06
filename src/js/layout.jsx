@@ -1,9 +1,11 @@
+import React, {PropTypes} from 'react';
+import { connect } from 'react-redux';
 import Battle from './battle.jsx';
 import Header from './header.jsx';
 import Wall from './wall.jsx';
-import React from 'react';
 
 function Layout() {
+  console.log();
   return <div>
     <Header />
     <Battle />
@@ -12,5 +14,10 @@ function Layout() {
 }
 
 Layout.propTypes = {
+  fighters: PropTypes.array.isRequired
 };
-export default Layout;
+export default connect(function(state){
+  return {
+    fighters: state
+  };
+})(Layout);
