@@ -73,6 +73,15 @@ body {
         color: white;
         padding: 7.5px 15px 7.5px 15px;
         line-height: 17px;
+        animation: rotate 300ms;
+        @keyframes rotate {
+          from {
+            transform: rotateX(90deg) translateY(-24px);
+          }
+          to {
+            transform: rotateX(0deg) translateY(0px);
+          }
+        }
         img {
           float: left;
           width: 48px;
