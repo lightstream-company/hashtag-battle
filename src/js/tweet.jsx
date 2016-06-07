@@ -6,11 +6,13 @@ class Tweet extends Component {
     const profilePicture = pictureSize ?
       user.profile_picture.replace('_normal', '_' + pictureSize) :
       user.profile_picture;
+
     const styleTweet = {
       minHeight: 48
     };
+
     return <div className="tweet" style={styleTweet} >
-      <img id="test" src={profilePicture} />
+      <img src={profilePicture} />
       <p>{text}</p>
     </div>;
   }
