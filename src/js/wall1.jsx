@@ -1,6 +1,9 @@
-import React from 'react';
+import React, { PropTypes } from 'react';
+import { connect } from 'react-redux';
+import Tweet from './tweet.jsx';
 
-function Wall1(){
+function Wall1(props){
+  const tweets = props.wall;
   var styleContainer = {
     maxWidth: 1100,
     margin: 'auto'
@@ -10,81 +13,18 @@ function Wall1(){
     float: 'left'
   };
   return <div style={styleContainer} className="container-wall">
-    
     <div style={styleContainerLeft} className="container-wall-left">
-      
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-      
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-    
-      
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-      
-      <div className="tweet">
-        <img src="http://s3.amazonaws.com/37assets/svn/765-default-avatar.png" />
-        <div className="tweet-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini.</p>
-        </div>
-      </div>
-
+      {tweets.map((item, i) => <Tweet key={item._id} index={i} {...item} />)}
     </div>
   </div>;
 }
-export default Wall1;
+
+Wall1.propTypes = {
+  wall: PropTypes.any,
+  attributes: PropTypes.any
+};
+export default connect(wall => {
+  return {
+    wall
+  };
+})(Wall1);
