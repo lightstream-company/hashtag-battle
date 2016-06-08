@@ -5,7 +5,7 @@ import React from 'react';
 import store from './store';
 import Layout from './layout.jsx';
 
-const {connect, load} = createConnection('overwatch');
+const {connect, load} = createConnection('uefa');
 
 function dispatchPost(post) {
   store.dispatch({

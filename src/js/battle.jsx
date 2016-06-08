@@ -1,4 +1,5 @@
 import React from 'react';
+import { maxWidth } from './config';
 
 function Battle(){
 
@@ -10,7 +11,7 @@ function Battle(){
   const count2 = 678;
 
   const styleContainer = {
-    maxWidth: 1100,
+    maxWidth: maxWidth,
     margin: 'auto'
   };  
   const count1Percent = 100 * count1 / ( count1 + count2 );

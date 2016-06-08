@@ -1,11 +1,12 @@
 import { createStore, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
+import { limit } from './config';
 
 function wall(state = [], action) {
   const {post, type} = action;
   switch(type){
     case 'NEW_POST':
-      return [...state, post].slice(-10);
+      return [...state, post].slice(-limit);
     default: 
       return state;
   }

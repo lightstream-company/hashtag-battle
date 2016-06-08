@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import { maxWidth } from './config';
 
 class Tweet extends Component {
   render() {
@@ -6,11 +7,17 @@ class Tweet extends Component {
     const profilePicture = pictureSize ?
       user.profile_picture.replace('_normal', '_' + pictureSize) :
       user.profile_picture;
-
-    const styleTweet = {
-      minHeight: 48
+    var styleTweet = {
+      height: 48,
+      width: ( maxWidth / 2 ) - 30
     };
-
+    function reSize() {
+      if(maxWidth > window.innerWidth) {
+        styleTweet.width = ( window.innerWidth / 2 ) - 30;
+        console.log(styleTweet.width);
+      }
+    }
+    window.addEventListener('resize', reSize);
     return <div className="tweet" style={styleTweet} >
       <img src={profilePicture} />
       <p>{text}</p>
