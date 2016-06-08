@@ -2,13 +2,13 @@ import createConnection from 'tweetping-connect';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import React from 'react';
-import store from './store';
+import store1 from './store';
 import Layout from './layout.jsx';
 
 const {connect, load} = createConnection('uefa');
 
 function dispatchPost(post) {
-  store.dispatch({
+  store1.dispatch({
     type: 'NEW_POST',
     post
   });
@@ -28,7 +28,7 @@ load('wall/', {
 });
 
 render(
-  <Provider store={store}>
+  <Provider store={store1}>
     <Layout />
   </Provider>,
   document.getElementById('hashtagbattle')

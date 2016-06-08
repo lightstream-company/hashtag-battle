@@ -12,9 +12,9 @@ function wall(state = [], action) {
   }
 }
 
-const store = createStore(wall, [], compose(
+const store1 = createStore(wall, [], compose(
   applyMiddleware(thunk),
   window.devToolsExtension ? window.devToolsExtension() : f => f
 ));
 
-export default store;
+export default store1;

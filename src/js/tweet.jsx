@@ -11,16 +11,21 @@ class Tweet extends Component {
       height: 48,
       width: ( maxWidth / 2 ) - 30
     };
-    function reSize() {
-      if(maxWidth > window.innerWidth) {
-        styleTweet.width = ( window.innerWidth / 2 ) - 30;
-        console.log(styleTweet.width);
-      }
+    var styleP = {
+      fontSize: 16,
+      fontWeight: 400,
+      height: 48,
+      paddinRight: 15,
+      textOverflow: 'hidden'
+    };
+    if (window.innerWidth < maxWidth) {
+      styleP.fontSize = 13;
+      styleP.fontSize = 13;
+      styleTweet.width = ( window.innerWidth / 2 ) - 40;
     }
-    window.addEventListener('resize', reSize);
     return <div className="tweet" style={styleTweet} >
       <img src={profilePicture} />
-      <p>{text}</p>
+      <p style={styleP}>{text}</p>
     </div>;
   }
 }
