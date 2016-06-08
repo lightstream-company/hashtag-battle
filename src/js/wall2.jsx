@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Tweet from './tweet.jsx';
-import { maxWidth, limit } from './config';
+import { maxWidth } from './config';
 
 function Wall1(props){
   const tweets = props.wall;

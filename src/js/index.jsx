@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import React from 'react';
 import store1 from './store';
 import Layout from './layout.jsx';
-import { stream1, stream2 } from './config';
+import { limit, stream1 } from './config';
 
 const {connect, load} = createConnection(stream1);
 
@@ -18,18 +18,16 @@ function dispatchPost(post) {
 connect('wall', dispatchPost);
 load('wall/', {
   query: {
-    size: 10
+    size: limit
   }
 }).then(posts => {
-
 	function loop(n){
 		dispatchPost(posts[n]);
 		setTimeout(()=>{
-			loop(n<9 ? n+1:0);
+			loop(n<limit-1 ? n+1:0);
 		}, 30 / 1000);
 	}
 	loop(0);
-
 });
 
 render(
