@@ -16,5 +16,4 @@ const store1 = createStore(wall1, [], compose(
   applyMiddleware(thunk),
   window.devToolsExtension ? window.devToolsExtension() : f => f
 ));
-
 export default store1;
