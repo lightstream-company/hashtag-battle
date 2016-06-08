@@ -73,37 +73,11 @@ body {
       }
       .tweet {
         color: white;
-        padding: 7.5px 15px 7.5px 15px;
+        padding: 9px 15px 9px 15px;
         line-height: 17px;
-        position: absolute;
         transition-duration: 100ms;
         animation: rotate 800ms;
         p { overflow: hidden; }
-
-        /*@twt-number: 20;
-        .tweet-loop (@twt-number);
-        .tweet-loop (@i) when (@i > 0) {
-          .tweet-loop(@i - 1);
-          &:nth-of-type(@{i}) {
-            @mynumber: calc(~"@{i}*60px");
-            margin-top: @mynumber;
-          }
-        }*/
-        &:nth-of-type(1) { margin-top: calc(9*@tweetheight); }
-        &:nth-of-type(2) { margin-top: calc(8*@tweetheight); }
-        &:nth-of-type(3) { margin-top: calc(7*@tweetheight); }
-        &:nth-of-type(4) { margin-top: calc(6*@tweetheight); }
-        &:nth-of-type(5) { margin-top: calc(5*@tweetheight); }
-        &:nth-of-type(6) { margin-top: calc(4*@tweetheight); }
-        &:nth-of-type(7) { margin-top: calc(3*@tweetheight); }
-        &:nth-of-type(8) { margin-top: calc(2*@tweetheight); }
-        &:nth-of-type(9) { margin-top: calc(1*@tweetheight); }
-        &:nth-of-type(10) { margin-top: calc(0*@tweetheight); }
-
-        @keyframes rotate {
-          from { transform: rotateX(90deg) translateY(-24px); }
-          to { transform: rotateX(0deg) translateY(0px); }
-        }
         img {
           float: left;
           width: 48px;

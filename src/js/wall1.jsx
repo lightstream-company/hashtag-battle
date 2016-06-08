@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Tweet from './tweet.jsx';
-import { maxWidth, limit, tweetHeight } from './config';
+import { maxWidth, limit } from './config';
 
 function Wall1(props){
   const tweets = props.wall;
@@ -11,12 +11,11 @@ function Wall1(props){
   };
   var styleContainerLeft = {
     width: 49 + '%',
-    height: limit * tweetHeight,
     float: 'left'
   };
   return <div style={styleContainer} className="container-wall" id="container-wall">
     <div style={styleContainerLeft} className="container-wall-left">
-      {tweets.map((item, i) => <Tweet key={item._id} index={-i} {...item} />)}
+      {tweets.map((item, i) => <Tweet key={item._id} index={i} {...item} />)}
     </div>
   </div>;
 }

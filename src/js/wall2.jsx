@@ -1,7 +1,7 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import Tweet from './tweet.jsx';
-import { maxWidth, limit, tweetHeight } from './config';
+import { maxWidth, limit } from './config';
 
 function Wall1(props){
   const tweets = props.wall;
@@ -11,7 +11,6 @@ function Wall1(props){
   };
   var styleContainerRight = {
     width: 49 + '%',
-    height: limit * tweetHeight,
     float: 'right'
   };
 

@@ -7,7 +7,7 @@ function Battle(){
   const hashtag2 = '#Trululu';
   const color1 = 'white';
   const color2 = 'green';
-  const count1 = 256;
+  const count1 = 1200;
   const count2 = 678;
 
   const styleContainer = {

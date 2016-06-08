@@ -2,7 +2,7 @@ import { createStore, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { limit } from './config';
 
-function wall(state = [], action) {
+function wall1(state = [], action) {
   const {post, type} = action;
   switch(type){
     case 'NEW_POST':
@@ -12,7 +12,7 @@ function wall(state = [], action) {
   }
 }
 
-const store1 = createStore(wall, [], compose(
+const store1 = createStore(wall1, [], compose(
   applyMiddleware(thunk),
   window.devToolsExtension ? window.devToolsExtension() : f => f
 ));

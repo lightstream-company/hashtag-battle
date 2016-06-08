@@ -4,8 +4,9 @@ import { Provider } from 'react-redux';
 import React from 'react';
 import store1 from './store';
 import Layout from './layout.jsx';
+import { stream1, stream2 } from './config';
 
-const {connect, load} = createConnection('uefa');
+const {connect, load} = createConnection(stream1);
 
 function dispatchPost(post) {
   store1.dispatch({
@@ -17,14 +18,18 @@ function dispatchPost(post) {
 connect('wall', dispatchPost);
 load('wall/', {
   query: {
-    size: 40
+    size: 10
   }
 }).then(posts => {
-  posts.forEach((post, i) => {
-    setTimeout(() => {
-      dispatchPost(post);
-    }, i * 1000);
-  });
+
+	function loop(n){
+		dispatchPost(posts[n]);
+		setTimeout(()=>{
+			loop(n<9 ? n+1:0);
+		}, 30 / 1000);
+	}
+	loop(0);
+
 });
 
 render(
