@@ -23,8 +23,8 @@ const Tweet = (props) => {
     height: tweetHeight,
     textOverflow: 'hidden'
   };
-  if (window.innerWidth > maxWidth) {
-    styleP.fontSize = 14;
+  if (window.innerWidth < maxWidth -100 ) {
+    styleP.fontSize = 15;
   }
   return <div className="tweet" style={styleTweet} >
     <p style={styleP} dangerouslySetInnerHTML={htmText()}/>
