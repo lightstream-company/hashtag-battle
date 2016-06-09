@@ -1,3 +1,5 @@
+'use strict';
+
 import React, { PropTypes } from 'react';
 import { maxWidth, tweetHeight } from './config';
 
@@ -8,9 +10,10 @@ const Tweet = (props) => {
     width: 96 + '%',
     margin: 'auto'
   };
-  //var myText;
+  var myText;
   var myText = text.replace('RT', '<i class="fa fa-retweet" aria-hidden="true"></i>');
-  //myText = myText.replace(/#[a-z]+/gi, '<span style="color:blue;">__</span>');
+  myText = myText.replace(/#[a-z]+/gi, '<span style="color:blue;">__</span>');
+  
   function htmText() {
     return { __html: myText };
   }

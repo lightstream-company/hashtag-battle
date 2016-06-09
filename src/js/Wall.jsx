@@ -4,7 +4,7 @@ import Tweet from './tweet.jsx';
 function Wall(props){
   const tweets = props.wall;
   var styleContainer = {
-    width: 49 + '%'
+    width: 49.25 + '%'
   };
   return <div style={styleContainer} className="container-wall">
     {tweets.map((item, i) => <Tweet key={item._id} index={i} {...item} />)}

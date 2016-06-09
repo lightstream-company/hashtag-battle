@@ -15,8 +15,8 @@ function Battle(props){
     maxWidth: maxWidth,
     margin: 'auto'
   };  
-  const count1Percent = 100 * count1 / ( count1 + count2 );
-  const count2Percent = 100 * count2 / ( count1 + count2 );
+  var count1Percent = 100 * count1 / ( count1 + count2 );
+  var count2Percent = 100 * count2 / ( count1 + count2 );
   const fighters = {
     float: 'left',
     width: 100 + '%'
@@ -47,16 +47,24 @@ function Battle(props){
     background: color2,
     width: 100 + '%'
   };
-  const styleSpan1 = {
+  var styleSpan1 = {
     float: 'right',
     transform: 'translateX(-15px) translateY(9px)',
     color: color2
   };
-  const styleSpan2 = {
+  var styleSpan2 = {
     float: 'left',
     transform: 'translateX(15px) translateY(9px)',
     color: color1
   };
+  var spanCount1 = count1 + ' tweets';
+  var spanCount2 = count2 + ' tweets';
+  if (count1Percent < 20 || count2Percent < 20) {
+    styleSpan1.display = 'none';
+    styleSpan2.display = 'none';
+    spanCount1 = count1 + ' tw - ' + Math.round(count1Percent) + ' %';
+    spanCount2 = count2 + ' tw - ' + Math.round(count2Percent) + ' %';
+  }
 
   return <div className="container-battle" style={styleContainer}>
     <img className="img1" src="http://www.lexilogos.com/images/gb_drapeau.gif" />
@@ -69,8 +77,8 @@ function Battle(props){
           <p style={Pright} className="hashtag p-right">{hashtag2}</p>
         </div>
         <div className="counts">
-          <p style={Pleft} className="count">{count1} tweets</p>
-          <p style={Pright} className="count p-right">{count2} tweets</p>
+          <p style={Pleft} className="count">{spanCount1}</p>
+          <p style={Pright} className="count p-right">{spanCount2}</p>
         </div>
         <div className="plots">  
           <div className="content-plot1" style={styleContentPlot1} >
