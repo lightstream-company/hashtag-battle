@@ -10,7 +10,8 @@ const Tweet = (props) => {
     width: 96 + '%',
     margin: 'auto'
   };
-  var myText;
+  
+  myText;
   var myText = text.replace('RT', '<i class="fa fa-retweet" aria-hidden="true"></i>');
   myText = myText.replace(/#[a-z]+/gi, '<span style="color:blue;">__</span>');
   

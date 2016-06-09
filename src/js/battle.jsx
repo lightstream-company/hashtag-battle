@@ -21,12 +21,22 @@ function Battle(props){
     float: 'left',
     width: 100 + '%'
   };
-  const Pleft = {
+  const PleftHashtag = {
     textAlign: 'left',
     float: 'left',
     width: 50 + '%'
   };
-  const Pright = {
+  const PrightHashtag = {
+    textAlign: 'right',
+    float: 'right',
+    width: 50 + '%'
+  };
+  const PleftCount = {
+    textAlign: 'left',
+    float: 'left',
+    width: 50 + '%'
+  };
+  const PrightCount = {
     textAlign: 'right',
     float: 'right',
     width: 50 + '%'
@@ -65,6 +75,12 @@ function Battle(props){
     spanCount1 = count1 + ' tw - ' + Math.round(count1Percent) + ' %';
     spanCount2 = count2 + ' tw - ' + Math.round(count2Percent) + ' %';
   }
+  if (window.innerWidth < maxWidth -100 ) {
+    PleftHashtag.fontSize = 30;
+    PrightHashtag.fontSize = 30;
+    PleftHashtag.transform = 'translateY(-7px)';
+    PrightHashtag.transform = 'translateY(-7px)';
+  }
 
   return <div className="container-battle" style={styleContainer}>
     <img className="img1" src="http://www.lexilogos.com/images/gb_drapeau.gif" />
@@ -73,12 +89,12 @@ function Battle(props){
     <div className="content-fighters">
       <div style={fighters} className="fighter1">
         <div className="hashtags">
-          <p style={Pleft} className="hashtag">{hashtag1}</p>
-          <p style={Pright} className="hashtag p-right">{hashtag2}</p>
+          <p style={PleftHashtag} className="hashtag">{hashtag1}</p>
+          <p style={PrightHashtag} className="hashtag p-right">{hashtag2}</p>
         </div>
         <div className="counts">
-          <p style={Pleft} className="count">{spanCount1}</p>
-          <p style={Pright} className="count p-right">{spanCount2}</p>
+          <p style={PleftCount} className="count">{spanCount1}</p>
+          <p style={PrightCount} className="count p-right">{spanCount2}</p>
         </div>
         <div className="plots">  
           <div className="content-plot1" style={styleContentPlot1} >
