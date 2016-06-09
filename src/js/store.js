@@ -1,19 +1,20 @@
-import { createStore, compose, applyMiddleware } from 'redux';
+import { createStore, compose, applyMiddleware, combineReducers } from 'redux';
+import {createWallReducer, createCountReducer} from './createReducer';
+import connectStore from './connectStore';
 import thunk from 'redux-thunk';
-import { limit } from './config';
+import { stream1, stream2 } from './config';
 
-function wall1(state = [], action) {
-  const {post, type} = action;
-  switch(type){
-    case 'NEW_POST':
-      return [...state, post].slice(-limit);
-    default: 
-      return state;
-  }
-}
-
-const store1 = createStore(wall1, [], compose(
+const store = createStore(combineReducers({
+  wall1: createWallReducer(stream1),
+  wall2: createWallReducer(stream2),
+  count1: createCountReducer(stream1),
+  count2: createCountReducer(stream2)
+}), [], compose(
   applyMiddleware(thunk),
   window.devToolsExtension ? window.devToolsExtension() : f => f
 ));
-export default store1;
+
+connectStore(store, stream1);
+connectStore(store, stream2);
+
+export default store;

@@ -1,14 +1,15 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
+import { connect } from 'react-redux';
 import { maxWidth } from './config';
 
-function Battle(){
+function Battle(props){
+
+  const {count1, count2} = props;
 
   const hashtag1 = '#Trololo';
   const hashtag2 = '#Trululu';
   const color1 = 'white';
   const color2 = 'green';
-  const count1 = 1200;
-  const count2 = 678;
 
   const styleContainer = {
     maxWidth: maxWidth,
@@ -90,5 +91,12 @@ function Battle(){
 }
 
 Battle.propTypes = {
+  count1: PropTypes.number.isRequired,
+  count2: PropTypes.number.isRequired
 };
-export default Battle;
+export default connect(state => {
+  return {
+    count1: state.count1,
+    count2: state.count2
+  };
+})(Battle);
