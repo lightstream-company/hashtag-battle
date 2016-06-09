@@ -1,21 +1,13 @@
 import React, { PropTypes } from 'react';
 import Tweet from './tweet.jsx';
-import { maxWidth } from './config';
 
 function Wall(props){
   const tweets = props.wall;
   var styleContainer = {
-    maxWidth: maxWidth,
-    margin: 'auto'
+    width: 49 + '%'
   };
-  var styleContainerLeft = {
-    width: 49 + '%',
-    float: 'left'
-  };
-  return <div style={styleContainer} className="container-wall" id="container-wall">
-    <div style={styleContainerLeft} className="container-wall-left">
-      {tweets.map((item, i) => <Tweet key={item._id} index={i} {...item} />)}
-    </div>
+  return <div style={styleContainer} className="container-wall">
+    {tweets.map((item, i) => <Tweet key={item._id} index={i} {...item} />)}
   </div>;
 }
 
