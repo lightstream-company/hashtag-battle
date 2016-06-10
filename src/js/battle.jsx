@@ -1,13 +1,13 @@
 import React, {PropTypes} from 'react';
 import { connect } from 'react-redux';
-import { maxWidth } from './config';
+import { maxWidth, stream1, stream2 } from './config';
 
 function Battle(props){
 
   const {count1, count2} = props;
 
-  const hashtag1 = '#Trololo';
-  const hashtag2 = '#Trululu';
+  const hashtag1 = '#' + stream1;
+  const hashtag2 = '#' + stream2;
   const color1 = 'white';
   const color2 = 'green';
 
@@ -83,8 +83,8 @@ function Battle(props){
   }
 
   return <div className="container-battle" style={styleContainer}>
-    <img className="img1" src="http://www.lexilogos.com/images/gb_drapeau.gif" />
-    <img className="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/langfr-225px-Flag_of_Germany.svg.png" />
+    <img className="img1" src={`images/flags/${stream1}.png`} />
+    <img className="img2" src={`images/flags/${stream2}.png`} />
     
     <div className="content-fighters">
       <div style={fighters} className="fighter1">

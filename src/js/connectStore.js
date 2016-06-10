@@ -7,7 +7,7 @@ export default function connectStore(store, ID) {
 
   function dispatchPost(post) {
     store.dispatch({
-      type: id,
+      type: ID,
       post
     });
   }
@@ -23,7 +23,7 @@ export default function connectStore(store, ID) {
   load('count').then(values => {
     const {twitter, facebook, instagram} = values;
     store.dispatch({
-      type: 'INIT_COUNT_' + id,
+      type: 'INIT_COUNT_' + ID,
       value: twitter + facebook + instagram - limit
     });
   });
