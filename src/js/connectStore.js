@@ -1,7 +1,9 @@
 import createConnection from 'tweetping-connect';
 import { limit } from './config';
 
-export default function connectStore(store, id) {
+export default function connectStore(store, ID) {
+
+  const id = ID.toLowerCase();
 
   function dispatchPost(post) {
     store.dispatch({
