@@ -2,7 +2,7 @@ FROM node:6
 
 COPY package.json /ls-ui/ui/uefa/package.json
 WORKDIR /ls-ui/ui/uefa/
-RUN npm install --production
+RUN npm install
 
 COPY src/ /ls-ui/ui/uefa/src
 COPY public/ /ls-ui/ui/uefa/public
