@@ -3,7 +3,7 @@ import { limit } from './config';
 
 export default function connectStore(store, ID) {
 
-  const id = ID.toLowerCase();
+  const id = 'uefa' + ID.toLowerCase();
 
   function dispatchPost(post) {
     store.dispatch({
