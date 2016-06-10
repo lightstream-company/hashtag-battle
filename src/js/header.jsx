@@ -1,7 +1,20 @@
 import React from 'react';
+import { maxWidth } from './config';
 
 function Header(){
-  return <div className="header">
+  const styleHeader = {
+    maxWidth: maxWidth,
+    margin: 'auto'
+  };
+  return <div className="header" style={styleHeader}>
+    <div className="container-tweetping-github">
+      <a className="github" href="https://github.com/lightstream-company/hashtag-battle" target="blank"><i className="fa fa-github" aria-hidden="true"></i></a>
+      <div className="tweetping">
+        <p>Powered by</p>
+        <p><a href="https://www.tweetping.net/" target="blank">Tweetping</a></p>
+      </div>
+    </div>
+
     <h1>#HASHTAG BATTLE</h1>
     <div className="img">
       <img src="images/vs.png" height="100%" width="100%"/>
