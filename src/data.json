@@ -7,6 +7,11 @@
     "terms": [
       "#uefa Albania"
     ],
+    "countryName": [
+      "albania",
+      "albanie",
+      "Shqipëri",
+    ],
     "players": [
       "Etrit Berisha",
       "Alban Hoxha",
@@ -34,7 +39,7 @@
     ],
     "coach": "Gianni De Biasi",
     "officialAccount": "",
-    "allAccounts": [  
+    "allAccounts": [
     ]
   },
 
@@ -44,6 +49,11 @@
     "streamId": "",
     "terms": [
       "#uefa Austria"
+    ],
+    "countryName": [
+      "austria",
+      "autriche",
+      "Österreich"
     ],
     "players": [
       "Robert Almer",
@@ -83,6 +93,11 @@
     "terms": [
       "#uefa Belgium"
     ],
+    "countryName": [
+      "belgium",
+      "belgique",
+      "Bélgica",
+    ],
     "players": [
       "Thibaut Courtois",
       "Jean-François Gillet",
@@ -120,6 +135,11 @@
     "streamId": "",
     "terms": [
       "#uefa Croatia"
+    ],
+    "countryName": [
+      "croatia",
+      "croatie",
+      "Hrvatska"
     ],
     "players": [
       "Lovre Kalinić",
@@ -159,6 +179,12 @@
     "terms": [
       "#uefa Czech Republic"
     ],
+    "countryName": [
+      "République Tchèque",
+      "czech republic",
+      "República Checa",
+      "Česká republika"
+    ],
     "players": [
       "Petr Čech",
       "Theodor Gebre Selassie",
@@ -197,6 +223,11 @@
     "terms": [
       "#uefa England"
     ],
+    "countryName": [
+      "England",
+      "Inglaterra",
+      "Angleterre"
+    ],
     "players": [
       "Fraser Forster", 
       "Joe Hart",
@@ -231,7 +262,27 @@
     "streamId": "2cde34",
     "terms": [
       "#uefa france",
-      "les bleus"
+      "les bleus",
+      "quinesautepasnestpasfrancais",
+      "qui ne saute pas n'est pas français",
+      "Allez les Bleus",
+      "Fiers d'etre bleus",
+      "equipe de France",
+      "allezlesbleus"
+    ],
+    "countryName": [
+      "france",
+      "França",
+      "francia",
+      "Frankreich",
+      "Frankräich",
+      "Ranska",
+      "فرنسا",
+      "프랑스",
+      "Франция",
+      "Γαλλία",
+      "フランス",
+      "法国"
     ],
     "players": [
       "Benoît Costil",
@@ -261,7 +312,27 @@
     "coach": "Didier Deschamps",
     "officialAccount": "equipedefrance",
     "allAccounts": [
-      "",
+      "AntoGriezmann",
+      "_OlivierGiroud_",
+      "dimpayet17",
+      "paulpogba",
+      "H_Lloris",
+      "Evra",
+      "SchneiderlinMo4",
+      "10APG",
+      "ATUIDIBlaise",
+      "MoussaSissoko",
+      "AnthonyMartial",
+      "benarfa",
+      "stevemandanda",
+      "lucasdigne",
+      "Koscielny_OFF",
+      "Elia22Mangala",
+      "UmtitiSam",
+      "YCabayeofficiel",
+      "kingsleeeeyy",
+      "nglkante",
+      "didierdeschamps",
     ]
   },
 
@@ -271,6 +342,12 @@
     "streamId": "",
     "terms": [
       "#uefa Germany"
+    ],
+    "countryName": [
+      "germany",
+      "Allemagne",
+      "Deutschland",
+      "Alemania"
     ],
     "players": [
       "Manuel Neuer",
@@ -299,7 +376,30 @@
     ],
     "coach": "Joachim Löw",
     "officialAccount": "DFB_Team",
-    "allAccounts": [  
+    "allAccounts": [
+      "DFB_Team_EN",
+      "DieMannschaft",
+      "bernd_leno",
+      "manuel_neuer",
+      "benehoewedes",
+      "joshuakimmich",
+      "mustafiofficial",
+      "julian_draxler",
+      "mariogoetze",
+      "samikhedira",
+      "tonikroos",
+      "mesutozil1088",
+      "LeroySxne",
+      "Andre_Schuerrle",
+      "Bschweinsteiger",
+      "Bschweinsteiger",
+      "juweigl",
+      "mario_gomez",
+      "esmuellert_",
+      "podolski10",
+      "joachim low",
+      "joachimlow",
+      "JederFuerJeden"
     ]
   },
 
@@ -309,6 +409,13 @@
     "streamId": "",
     "terms": [
       "#uefa Hungary"
+    ],
+    "countryName": [
+      "Hungary",
+      "Hungría",
+      "Ungarn",
+      "Hongrie",
+      "Magyarország"
     ],
     "players": [
       "Gábor Király",
@@ -348,6 +455,12 @@
     "terms": [
       "#uefa Iceland"
     ],
+    "countryName": [
+      "iceland",
+      "Islande",
+      "Islandia",
+      "Ísland"
+    ],
     "players": [
       "Hannes Halldórsson",
       "Ingvar Jónsson",
@@ -386,6 +499,11 @@
     "terms": [
       "#uefa Italy"
     ],
+    "countryName": [
+      "italy",
+      "italie",
+      "italia"
+    ],
     "players": [
       "Gianluigi Buffon",
       "Federico Marchetti",
@@ -423,6 +541,12 @@
     "terms": [
       "#uefa Northern Ireland"
     ],
+    "countryName": [
+      "Northern Ireland",
+      "Irelande du nord",
+      "Irlanda del norte",
+      "Tuaisceart Éireann"
+    ],
     "players": [
       "Roy Carroll",
       "Alan Mannus",
@@ -459,6 +583,12 @@
     "streamId": "",
     "terms": [
       "#uefa Poland"
+    ],
+    "countryName": [
+      "poland",
+      "Polonia",
+      "pologne",
+      "Polska"
     ],
     "players": [
       "Artur Boruc",
@@ -498,6 +628,9 @@
     "terms": [
       "#uefa Portugal"
     ],
+    "countryName": [
+      "portugal",
+    ],
     "players": [
       "Eduardo",
       "Anthony Lopes",
@@ -535,6 +668,12 @@
     "streamId": "",
     "terms": [
       "#uefa Republic of Ireland"
+    ],
+    "countryName": [
+      "Republic of Ireland",
+      "Republica de Irlanda",
+      "République d'Irlande",
+      "Poblacht na hÉireann"
     ],
     "players": [
       "Shay Given",
@@ -574,6 +713,12 @@
     "terms": [
       "#uefa Romania"
     ],
+    "countryName": [
+      "romania",
+      "roumanie",
+      "Rumania",
+      "România"
+    ],
     "players": [
       "Silviu Lung",
       "Costel Pantilimon",
@@ -603,6 +748,29 @@
     "coach": "Anghel Iordănescu",
     "officialAccount": "hai_romania",
     "allAccounts": [
+      "silviulung",
+      "costelpanti",
+      "CiprianTatarusanu",
+      "vlad_chiriches6",
+      "stelianofilip",
+      "ValericaGaman",
+      "dragosgrigore",
+      "AlexandruMatel",
+      "Cosminmoti",
+      "RazvanRat",
+      "cristiansapunaru",
+      "AlexandruChipciu",
+      "OvidiuHoban",
+      "AdrianPopa",
+      "Sanmartean29",
+      "NicolaeStanciu",
+      "GabrielTorje",
+      "DenisAlibec",
+      "FlorinAndone11",
+      "claudiukeseru",
+      "BogdanStancu",
+      "hairomania",
+      "RomaniaSuntemToti"
     ]
   },
 
@@ -612,6 +780,12 @@
     "streamId": "",
     "terms": [
       "#uefa Russia"
+    ],
+    "countryName": [
+      "russia",
+      "Rusia",
+      "russie",
+      "Россия"
     ],
     "players": [
       "Igor Akinfeev",
@@ -651,6 +825,12 @@
     "terms": [
       "#uefa Slovakia"
     ],
+    "countryName": [
+      "Slovakia",
+      "Slovaquie",
+      "Eslovaquia",
+      "Slovensko"
+    ],
     "players": [
       "Matúš Kozáčik",
       "Ján Mucha",
@@ -688,6 +868,11 @@
     "streamId": "",
     "terms": [
       "#uefa Spain"
+    ],
+    "countryName": [
+      "spain",
+      "España",
+      "espagne"
     ],
     "players": [
       "Iker Casillas",
@@ -727,6 +912,12 @@
     "terms": [
       "#uefa Sweden"
     ],
+    "countryName": [
+      "sweden",
+      "suisse",
+      "suecia",
+      "sverige"
+    ],
     "players": [
       "Patrik Carlgren",
       "Andreas Isaksson",
@@ -764,6 +955,13 @@
     "streamId": "",
     "terms": [
       "#uefa Switzerland"
+    ],
+    "countryName": [
+      "Switzerland",
+      "suiza",
+      "suisse",
+      "Svizzera",
+      "Schweiz"
     ],
     "players": [
       "Roman Bürki (21",
@@ -803,6 +1001,12 @@
     "terms": [
       "#uefa Turkey"
     ],
+    "countryName": [
+      "turkey",
+      "Turquía",
+      "turquie",
+      "Türkiye"
+    ],
     "players": [
       "Harun Tekin",
       "Onur Kıvrak",
@@ -841,6 +1045,11 @@
     "terms": [
       "#uefa Ukraine"
     ],
+    "countryName": [
+      "ukraine",
+      "Ucrania",
+      "Україна"
+    ],
     "players": [
       "Denys Boyko",
       "Andriy Pyatov",
@@ -878,6 +1087,12 @@
     "streamId": "",
     "terms": [
       "#uefa Wales"
+    ],
+    "countryName": [
+      "wales",
+      "Gales",
+      "cymru",
+      "Pays de Galles"
     ],
     "players": [
       "Owain Fôn Williams",
