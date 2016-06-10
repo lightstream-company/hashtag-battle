@@ -7,6 +7,7 @@
     "babelify": "^7.2.0",
     "exorcist": "^0.4.0",
     "less": "^2.7.1",
+    "less-plugin-clean-css": "^1.5.1",
     "lodash": "^4.13.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
@@ -14,6 +15,7 @@
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "tweetping-connect": "^2.0.2",
+    "uglifyjs": "^2.4.10",
     "watch": "^0.18.0",
     "watchify": "^3.7.0"
   },
@@ -27,7 +29,13 @@
     "watch": "^0.18.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "npm run prod-css & npm run prod-js",
+    "dev": "npm run dev-js & npm run dev-css",
+    "dev-js": "watchify --verbose --debug -t [ babelify --presets [ es2015 react ] ] -o public/main.js -- src/js/index.jsx | exorcist public/main.js.map > public/main.js",
+    "dev-css": "watch './node_modules/.bin/lessc src/less/style.less public/style.css' src/less/",
+    "prod-js": "browserify src/js/index.jsx --verbose -t [ babelify --presets [ es2015 react ]  ] | uglifyjs -c=dead_code,evaluate,loops,unused > public/main.js",
+    "prod-css": "./node_modules/.bin/lessc --clean-css src/less/style.less public/style.css"
   },
   "repository": {
     "type": "git",

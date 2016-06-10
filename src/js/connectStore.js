@@ -17,4 +17,12 @@ export default function connectStore(store, id) {
       size: limit
     }
   }).then(posts => posts.forEach(dispatchPost));
+
+  load('count').then(values => {
+    const {twitter, facebook, instagram} = values;
+    store.dispatch({
+      type: 'INIT_COUNT_' + id,
+      value: twitter + facebook + instagram - limit
+    });
+  });
 }
