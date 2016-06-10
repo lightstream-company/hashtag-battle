@@ -33,7 +33,9 @@
       "Armando"
     ],
     "coach": "Gianni De Biasi",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "AUS": {
@@ -69,7 +71,9 @@
       "Rubin Okotie"
     ],
     "coach": "Marcel Koller",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "BEL": {
@@ -105,7 +109,9 @@
       "Divock Origi"
     ],
     "coach": "Marc Wilmots",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "CRO": {
@@ -141,13 +147,47 @@
       "Duje Čop"
     ],
     "coach": "Ante Čačić",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "CZE": {
+    "name": "Czech Republic",
+    "color": "#ED1C24",
+    "streamId": "",
+    "terms": [
+      "#uefa Czech Republic"
+    ],
+    "players": [
+      "Petr Čech",
+      "Theodor Gebre Selassie",
+      "Roman Hubník",
+      "Pavel Kadeřábek",
+      "Michal Kadlec",
+      "Bořek Dočkal",
+      "David Limberský",
+      "Tomáš Sivok",
+      "Tomáš Necid",
+      "Tomáš Koubek",
+      "Tomáš Vaclík",
+      "Marek Suchý",
+      "Vladimír Darida",
+      "Daniel Kolář",
+      "Ladislav Krejčí",
+      "David Pavelka",
+      "Jaroslav Plašil",
+      "Daniel Pudil",
+      "Tomáš Rosický",
+      "Jiří Skalák",
+      "Josef Šural",
+      "David Lafata",
+      "Milan Škoda",
     ],
     "coach": "Pavel Vrba",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "ENG": {
@@ -180,7 +220,9 @@
       "Jamie Vardy"
     ],
     "coach": "Roy Hodgson",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "FRA": {
@@ -217,7 +259,10 @@
       "Anthony Martial"
     ],
     "coach": "Laurent Blanc",
-    "officialAccount": "@allezleslbleu"
+    "officialAccount": "@allezleslbleu",
+    "allAccounts": [
+      "",
+    ]
   },
 
   "GER": {
@@ -253,7 +298,9 @@
       "Lukas Podolski"
     ],
     "coach": "Joachim Löw",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "HUN": {
@@ -289,7 +336,9 @@
       "Ádám Szalai"
     ],
     "coach": "Bernd Storck",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "ICE": {
@@ -325,7 +374,9 @@
       "Kolbeinn Sigthórsson"
     ],
     "coach": "Lars Lagerbäck",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "ITA": {
@@ -360,7 +411,9 @@
       "Simone Zaza"
     ],
     "coach": "Antonio Conte",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "NOR": {
@@ -395,7 +448,9 @@
       "Conor Washington"
     ],
     "coach": "Michael O'Neill",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "POL": {
@@ -431,7 +486,9 @@
       "Mariusz Stępiński"
     ],
     "coach": "Adam Nawałka",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "POR": {
@@ -467,7 +524,9 @@
       "Cristiano Ronaldo"
     ],
     "coach": "Fernando Santos",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "REP": {
@@ -503,7 +562,9 @@
       "Jon Walters"
     ],
     "coach": "Martin O'Neill",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "ROM": {
@@ -540,7 +601,9 @@
       "Bogdan Stancu"
     ],
     "coach": "Anghel Iordănescu",
-    "officialAccount": "@RomaniaFootyUK"
+    "officialAccount": "@RomaniaFootyUK",
+    "allAccounts": [  
+    ]
   },
 
   "RUS": {
@@ -576,7 +639,9 @@
       "Fedor Smolov"
     ],
     "coach": "Leonid Slutski",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "SLO": {
@@ -612,7 +677,9 @@
       "Stanislav Šesták"
     ],
     "coach": "Ján Kozák",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "SPA": {
@@ -645,10 +712,12 @@
       "Lucas Vázquez",
       "Álvaro Morata",
       "Nolito ",
-      "Pedro Rodríguez"
+      "Pedro Rodríguez",
     ],
     "coach": "Vicente del Bosque",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "SWE": {
@@ -684,7 +753,9 @@
       "Emir Kujovic"
     ],
     "coach": "Erik Hamrén",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "SWI": {
@@ -720,7 +791,9 @@
       "Shani Tarashaj (17"
     ],
     "coach": "Vladimir Petković",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "TUR": {
@@ -756,7 +829,9 @@
       "Emre Mor"
     ],
     "coach": "Fatih Terim",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "UKR": {
@@ -792,7 +867,9 @@
       "Roman Zozulya"
     ],
     "coach": "Mykhailo Fomenko",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   },
 
   "WAL": {
@@ -828,7 +905,9 @@
       "George Williams"
     ],
     "coach": "Chris Coleman",
-    "officialAccount": ""
+    "officialAccount": "",
+    "allAccounts": [  
+    ]
   }
 
 }
