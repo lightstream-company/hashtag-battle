@@ -1,42 +1,5 @@
 {
 
-  "ROM": {
-    "name": "Romania",
-    "color": "#E0CD1B",
-    "streamId": "",
-    "terms": [
-      "#uefa Romania"
-    ],
-    "players": [
-      "Silviu Lung",
-      "Costel Pantilimon",
-      "Ciprian Tătăruşanu",
-      "Vlad Chiricheş",
-      "Steliano Filip",
-      "Valerică Găman",
-      "Dragoş Grigore",
-      "Alexandru Măţel",
-      "Cosmin Moţi",
-      "Răzvan Raţ",
-      "Cristian Săpunaru",
-      "Alexandru Chipciu",
-      "Ovidiu Hoban",
-      "Mihai Pintilii",
-      "Adrian Popa",
-      "Andrei Prepeliţă",
-      "Lucian Sânmărtean",
-      "Nicolae Stanciu",
-      "Gabriel Torje",
-      "Denis Alibec",
-      "Florin Andone",
-      "Florin Andone",
-      "Claudiu Keșerü",
-      "Bogdan Stancu"
-    ],
-    "coach": "Anghel Iordănescu",
-    "officialAccount": "@RomaniaFootyUK"
-  },
-
   "ALB": {
     "name": "Albania",
     "color": "#E41E20",
@@ -103,7 +66,7 @@
       "Marko Arnautović",
       "Lukas Hinterseer",
       "Marc Janko",
-      "Rubin Okotie",
+      "Rubin Okotie"
     ],
     "coach": "Marcel Koller",
     "officialAccount": ""
@@ -139,7 +102,7 @@
       "Christian Benteke",
       "Romelu Lukaku",
       "Dries Mertens",
-      "Divock Origi",
+      "Divock Origi"
     ],
     "coach": "Marc Wilmots",
     "officialAccount": ""
@@ -175,43 +138,13 @@
       "Andrej Kramari",
       "Mario Mandžukić",
       "Marko Pjaca",
-      "Duje Čop",
+      "Duje Čop"
     ],
     "coach": "Ante Čačić",
     "officialAccount": ""
   },
 
   "CZE": {
-    "name": "Czech Republic",
-    "color": "#ED1C24",
-    "streamId": "",
-    "terms": [
-      "#uefa Czech Republic"
-    ],
-    "players": [
-      "Petr Čech",
-      "Theodor Gebre Selassie",
-      "Roman Hubník",
-      "Pavel Kadeřábek",
-      "Michal Kadlec",
-      "Bořek Dočkal",
-      "David Limberský",
-      "Tomáš Sivok",
-      "Tomáš Necid",
-      "Tomáš Koubek",
-      "Tomáš Vaclík",
-      "Marek Suchý",
-      "Vladimír Darida",
-      "Daniel Kolář",
-      "Ladislav Krejčí",
-      "David Pavelka",
-      "Jaroslav Plašil",
-      "Daniel Pudil",
-      "Tomáš Rosický",
-      "Jiří Skalák",
-      "Josef Šural",
-      "David Lafata",
-      "Milan Škoda",
     ],
     "coach": "Pavel Vrba",
     "officialAccount": ""
@@ -244,7 +177,7 @@
       "Marcus Rashford", 
       "Wayne Rooney", 
       "Daniel Sturridge", 
-      "Jamie Vardy", 
+      "Jamie Vardy"
     ],
     "coach": "Roy Hodgson",
     "officialAccount": ""
@@ -317,7 +250,7 @@
       "Julian Weigl",
       "Mario Gomez",
       "Thomas Müller",
-      "Lukas Podolski",
+      "Lukas Podolski"
     ],
     "coach": "Joachim Löw",
     "officialAccount": ""
@@ -353,7 +286,7 @@
       "Krisztián Németh ",
       "Nemanja Nikolić ",
       "Tamás Priskin ",
-      "Ádám Szalai",
+      "Ádám Szalai"
     ],
     "coach": "Bernd Storck",
     "officialAccount": ""
@@ -432,37 +365,470 @@
 
   "NOR": {
     "name": "Northern Ireland",
-    "color": "#009247",
+    "color": "#27C477",
     "streamId": "",
     "terms": [
-      "#uefa Italy"
+      "#uefa Northern Ireland"
     ],
     "players": [
-      "Gianluigi Buffon",
-      "Federico Marchetti",
-      "Salvatore Sirigu",
-      "Andrea Barzagli",
-      "Leonardo Bonucci",
-      "Giorgio Chiellini",
-      "Matteo Darmian",
-      "Mattia De Sciglio",
-      "Angelo Ogbonna",
-      "Antonio Candreva",
-      "Daniele De Rossi",
-      "Alessandro Florenzi",
-      "Emanuele Giaccherini",
-      "Marco Parolo",
-      "Stefano Sturaro",
-      "Thiago Motta",
-      "Éder",
-      "Stephan El Shaarawy",
-      "Ciro Immobile",
-      "Lorenzo Insigne",
-      "Graziano Pellè",
-      "Simone Zaza"
+      "Roy Carroll",
+      "Alan Mannus",
+      "Michael McGovern",
+      "Chris Baird",
+      "Craig Cathcart",
+      "Jonny Evans",
+      "Lee Hodson",
+      "Aaron Hughes",
+      "Gareth McAuley",
+      "Luke McCullough",
+      "Conor McLaughlin",
+      "Stuart Dallas",
+      "Steven Davis",
+      "Corry Evans",
+      "Shane Ferguson",
+      "Josh Magennis",
+      "Oliver Norwood",
+      "Jamie Ward",
+      "Will Grigg",
+      "Kyle Lafferty",
+      "Niall McGinn",
+      "Conor Washington"
     ],
-    "coach": "Antonio Conte",
+    "coach": "Michael O'Neill",
     "officialAccount": ""
   },
+
+  "POL": {
+    "name": "Poland",
+    "color": "#FFFFFF",
+    "streamId": "",
+    "terms": [
+      "#uefa Poland"
+    ],
+    "players": [
+      "Artur Boruc",
+      "Łukasz Fabiański",
+      "Wojciech Szczęsny",
+      "Thiago Cionek",
+      "Kamil Glik",
+      "Artur Jędrzejczyk",
+      "Michał Pazdan",
+      "Łukasz Piszczek",
+      "Bartosz Salamon",
+      "Jakub Wawrzyniak",
+      "Jakub Błaszczykowski",
+      "Kamil Grosicki",
+      "Tomasz Jodłowiec",
+      "Bartosz Kapustka",
+      "Grzegorz Krychowiak",
+      "Karol Linetty",
+      "Krzysztof Mączyński",
+      "Sławomir Peszko",
+      "Filip Starzyński",
+      "Piotr Zieliński",
+      "Robert Lewandowski",
+      "Arkadiusz Milik",
+      "Mariusz Stępiński"
+    ],
+    "coach": "Adam Nawałka",
+    "officialAccount": ""
+  },
+
+  "POR": {
+    "name": "Portugal",
+    "color": "#FFFFFF",
+    "streamId": "",
+    "terms": [
+      "#uefa Portugal"
+    ],
+    "players": [
+      "Eduardo",
+      "Anthony Lopes",
+      "Rui Patrício",
+      "Bruno Alves",
+      "Ricardo Carvalho",
+      "Cédric",
+      "Eliseu",
+      "José Fonte",
+      "Pepe",
+      "Raphael Guerreiro",
+      "Adrien Silva",
+      "André Gomes",
+      "Danilo",
+      "João Mário",
+      "João Moutinho",
+      "Rafa Silva",
+      "Renato Sanches",
+      "Vieirinha",
+      "William Carvalho",
+      "Éder",
+      "Nani",
+      "Ricardo Quaresma",
+      "Cristiano Ronaldo"
+    ],
+    "coach": "Fernando Santos",
+    "officialAccount": ""
+  },
+
+  "REP": {
+    "name": "Republic of Ireland",
+    "color": "#4CAC90",
+    "streamId": "",
+    "terms": [
+      "#uefa Republic of Ireland"
+    ],
+    "players": [
+      "Shay Given",
+      "Darren Randolph",
+      "Keiren Westwoo",
+      "Cyrus Christie",
+      "Ciaran Clar",
+      "Seamus Colema",
+      "Shane Duffy",
+      "Richard Keog",
+      "John O'She",
+      "Stephen Ward",
+      "Robbie Brady",
+      "Jeff Hendrick",
+      "Wes Hoolahan",
+      "James McCarth",
+      "James McClean",
+      "Aiden McGead",
+      "David Meyler",
+      "Stephen Quinn",
+      "Glenn Whela",
+      "Robbie Keane",
+      "Shane Lon",
+      "Daryl Murphy",
+      "Jon Walters"
+    ],
+    "coach": "Martin O'Neill",
+    "officialAccount": ""
+  },
+
+  "ROM": {
+    "name": "Romania",
+    "color": "#E0CD1B",
+    "streamId": "",
+    "terms": [
+      "#uefa Romania"
+    ],
+    "players": [
+      "Silviu Lung",
+      "Costel Pantilimon",
+      "Ciprian Tătăruşanu",
+      "Vlad Chiricheş",
+      "Steliano Filip",
+      "Valerică Găman",
+      "Dragoş Grigore",
+      "Alexandru Măţel",
+      "Cosmin Moţi",
+      "Răzvan Raţ",
+      "Cristian Săpunaru",
+      "Alexandru Chipciu",
+      "Ovidiu Hoban",
+      "Mihai Pintilii",
+      "Adrian Popa",
+      "Andrei Prepeliţă",
+      "Lucian Sânmărtean",
+      "Nicolae Stanciu",
+      "Gabriel Torje",
+      "Denis Alibec",
+      "Florin Andone",
+      "Florin Andone",
+      "Claudiu Keșerü",
+      "Bogdan Stancu"
+    ],
+    "coach": "Anghel Iordănescu",
+    "officialAccount": "@RomaniaFootyUK"
+  },
+
+  "RUS": {
+    "name": "Russia",
+    "color": "#D6152A",
+    "streamId": "",
+    "terms": [
+      "#uefa Russia"
+    ],
+    "players": [
+      "Igor Akinfeev",
+      "Guilherme",
+      "Yuri Lodygin",
+      "Aleksei Berezutski",
+      "Vasili Berezutski",
+      "Sergei Ignashevich",
+      "Dmitri Kombarov",
+      "Roman Neustädter",
+      "Georgi Schennikov",
+      "Roman Shishkin",
+      "Igor Smolnikov",
+      "Denis Glushakov",
+      "Aleksandr Golovin",
+      "Oleg Ivanov",
+      "Pavel Mamaev",
+      "Aleksandr Samedov",
+      "Oleg Shatov",
+      "Roman Shirokov",
+      "Dmitri Torbinski",
+      "Artur Yusupov",
+      "Artem Dzyuba",
+      "Aleksandr Kokorin",
+      "Fedor Smolov"
+    ],
+    "coach": "Leonid Slutski",
+    "officialAccount": ""
+  },
+
+  "SLO": {
+    "name": "Slovakia",
+    "color": "#005BAA",
+    "streamId": "",
+    "terms": [
+      "#uefa Slovakia"
+    ],
+    "players": [
+      "Matúš Kozáčik",
+      "Ján Mucha",
+      "Ján Novota",
+      "Ján Ďurica",
+      "Norbert Gyömber",
+      "Tomáš Hubočan",
+      "Peter Pekarík",
+      "Kornel Saláta",
+      "Milan Škriniar",
+      "Martin Škrtel",
+      "Dušan Švento",
+      "Ondrej Duda",
+      "Ján Greguš",
+      "Marek Hamšík",
+      "Patrik Hrošovský",
+      "Juraj Kucka",
+      "Róbert Mak",
+      "Viktor Pečovský",
+      "Miroslav Stoch",
+      "Vladimír Weiss",
+      "Michal Ďuriš",
+      "Adam Nemec",
+      "Stanislav Šesták"
+    ],
+    "coach": "Ján Kozák",
+    "officialAccount": ""
+  },
+
+  "SPA": {
+    "name": "Spain",
+    "color": "#B20233",
+    "streamId": "",
+    "terms": [
+      "#uefa Spain"
+    ],
+    "players": [
+      "Iker Casillas",
+      "David de Gea",
+      "Sergio Rico",
+      "César Azpilicueta",
+      "Marc Bartra",
+      "Héctor Bellerín",
+      "Jordi Alba", 
+      "Juanfran",
+      "Gerard Piqué",
+      "Sergio Ramos",
+      "Mikel San José",
+      "Bruno Soriano",
+      "Sergio Busquets",
+      "Cesc Fàbregas",
+      "Andrés Iniesta",
+      "Koke",
+      "David Silva",
+      "Thiago Alcántara",
+      "Aritz Aduriz",
+      "Lucas Vázquez",
+      "Álvaro Morata",
+      "Nolito ",
+      "Pedro Rodríguez"
+    ],
+    "coach": "Vicente del Bosque",
+    "officialAccount": ""
+  },
+
+  "SWE": {
+    "name": "Sweden",
+    "color": "#FFD400",
+    "streamId": "",
+    "terms": [
+      "#uefa Sweden"
+    ],
+    "players": [
+      "Patrik Carlgren",
+      "Andreas Isaksson",
+      "Robin Olsen",
+      "Ludwig Augustinsson",
+      "Andreas Granqvist",
+      "Pontus Jansson",
+      "Erik Johansson",
+      "Victor Lindelöf",
+      "Mikael Lustig",
+      "Martin Olsson",
+      "Jimmy Durmaz",
+      "Albin Ekdal",
+      "Erkan Zengin",
+      "Emil Forsberg",
+      "Oscar Hiljemark",
+      "Kim Källström",
+      "Sebastian Larsson",
+      "Oscar Lewicki",
+      "Pontus Wernbloom",
+      "Marcus Berg",
+      "John Guidetti",
+      "Zlatan Ibrahimović",
+      "Emir Kujovic"
+    ],
+    "coach": "Erik Hamrén",
+    "officialAccount": ""
+  },
+
+  "SWI": {
+    "name": "Switzerland",
+    "color": "#ED1C24",
+    "streamId": "",
+    "terms": [
+      "#uefa Switzerland"
+    ],
+    "players": [
+      "Roman Bürki (21",
+      "Marwin Hitz (12",
+      "Yann Sommer (1)",
+      "Johan Djourou (20",
+      "Nico Elvedi (4)",
+      "Michael Lang (6)",
+      "Stephan Lichtsteiner (2)",
+      "François Moubandje (3)",
+      "Ricardo Rodríguez (13",
+      "Fabian Schär (22",
+      "Steve von Bergen (5)",
+      "Valon Behrami (11",
+      "Blerim Džemaili (15",
+      "Gelson Fernandes (16",
+      "Fabian Frei (8)",
+      "Xherdan Shaqiri (23",
+      "Granit Xhaka (10",
+      "Denis Zakaria (14",
+      "Eren Derdiyok (19",
+      "Breel Embolo (7)",
+      "Admir Mehmedi (18",
+      "Haris Seferović (9)",
+      "Shani Tarashaj (17"
+    ],
+    "coach": "Vladimir Petković",
+    "officialAccount": ""
+  },
+
+  "TUR": {
+    "name": "Turkey",
+    "color": "#ED1C24",
+    "streamId": "",
+    "terms": [
+      "#uefa Turkey"
+    ],
+    "players": [
+      "Harun Tekin",
+      "Onur Kıvrak",
+      "Volkan Babacan",
+      "Ahmet Çalık",
+      "Gökhan Gönül",
+      "Hakan Balta",
+      "İsmail Köybaşı",
+      "Semih Kaya",
+      "Şener Özbayraklı",
+      "Arda Turan",
+      "Caner Erkin",
+      "Hakan Çalhanoğlu",
+      "Mehmet Topal",
+      "Nuri Şahin",
+      "Oğuzhan Özyakup",
+      "Olcay Şahan",
+      "Ozan Tufan ",
+      "Selçuk İnan",
+      "Volkan Şen",
+      "Yunus Mallı",
+      "Burak Yılmaz",
+      "Cenk Tosun",
+      "Emre Mor"
+    ],
+    "coach": "Fatih Terim",
+    "officialAccount": ""
+  },
+
+  "UKR": {
+    "name": "Ukraine",
+    "color": "#005BAA",
+    "streamId": "",
+    "terms": [
+      "#uefa Ukraine"
+    ],
+    "players": [
+      "Denys Boyko",
+      "Andriy Pyatov",
+      "Mykyta Shevchenko",
+      "Bohdan Butko",
+      "Artem Fedetskiy",
+      "Yevhen Khacheridi",
+      "Olexandr Kucher",
+      "Yaroslav Rakitskiy",
+      "Vyacheslav Shevchuk",
+      "Denys Garmash",
+      "Olexandr Karavaev",
+      "Yevhen Konoplyanka",
+      "Viktor Kovalenko",
+      "Ruslan Rotan",
+      "Serhiy Rybalka",
+      "Taras Stepanenko",
+      "Serhiy Sydorchuk",
+      "Anatoliy Tymoshchuk",
+      "Andriy Yarmolenko",
+      "Olexandr Zinchenko",
+      "Pylyp Budkivskiy",
+      "Yevhen Seleznyov",
+      "Roman Zozulya"
+    ],
+    "coach": "Mykhailo Fomenko",
+    "officialAccount": ""
+  },
+
+  "WAL": {
+    "name": "Wales",
+    "color": "#E63832",
+    "streamId": "",
+    "terms": [
+      "#uefa Wales"
+    ],
+    "players": [
+      "Owain Fôn Williams",
+      "Wayne Hennessey",
+      "Danny Ward",
+      "James Chester",
+      "James Collins",
+      "Ben Davies",
+      "Chris Gunter",
+      "Jazz Richards",
+      "Neil Taylor",
+      "Ashley Williams",
+      "Joe Allen",
+      "David Edwards",
+      "Andy King",
+      "Joe Ledley",
+      "Aaron Ramsey",
+      "David Vaughan",
+      "Jonathan Williams",
+      "Gareth Bale",
+      "Simon Church",
+      "David Cotterill",
+      "Hal Robson-Kanu",
+      "Sam Vokes",
+      "George Williams"
+    ],
+    "coach": "Chris Coleman",
+    "officialAccount": ""
+  }
 
 }
