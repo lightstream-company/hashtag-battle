@@ -3,8 +3,7 @@ import { maxWidth } from './config';
 
 function Header(){
   const styleHeader = {
-    maxWidth: maxWidth,
-    margin: 'auto'
+    maxWidth: maxWidth
   };
   return <div className="header" style={styleHeader}>
   
