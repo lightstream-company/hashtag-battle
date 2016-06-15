@@ -16,6 +16,11 @@ body {
     margin: 90px auto 15px auto;
 
     .header {
+      background: url(images/light.png);
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 250px;
       .github {
         float: right;
         i { font-size: 30px; }
@@ -29,45 +34,30 @@ body {
           text-align: right;
         }
       }
-      .container-tweetping-github {
-        width: 100%;
-        display: inline-block;
-        .tweetping {
-          text-align: left;
-          float: left;
-          margin-right: 15px;
-          font-size: 15px;
-          font-weight: light;
-          color: rgba(255, 255, 255, 0.7);
-          a {
-            text-decoration: none;
-            font-family: 'raleway', 'lato', 'arial';
-            font-weight: bolder;
-            font-size: 26px;
-            color: white;
-          }
+      .tweetping {
+        float: left;
+        text-align: left;
+        margin-right: 15px;
+        font-size: 15px;
+        font-weight: light;
+        color: rgba(255, 255, 255, 0.7);
+        a {
+          text-decoration: none;
+          font-family: 'raleway', 'lato', 'arial';
+          font-weight: bolder;
+          font-size: 26px;
+          color: white;
         }
       }
       h1 {
+        padding-top: 100px;
         font-size: 45px;
         color: white;
-        margin: -60px 0 0 0;
+        font-style: italic;
         font-weight: bolder;
-        letter-spacing: -4px;
+        letter-spacing: 3px;
         text-align: center;
-      }
-      .img {
-        margin: auto;
-        margin-top: 17px;
-        width: 120px;
-        height: 120px;
-      }
-      @media all and (max-width: 800px) {
-        h1 {
-          margin-bottom: 70px;
-          font-size: 43px;
-        }
-        .img {display: none; }
+        text-shadow: 0px 0px 6px rgba(60, 99, 255, 0.85);
       }
     }
 
