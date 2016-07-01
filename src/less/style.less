@@ -106,6 +106,9 @@ body {
       .container-wall:first-child { float: left; }
       .container-wall:last-child { float: right; }
       .container-wall {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
         background: rgba(0, 0, 0, 0.5);
         margin-top: 15px;
         border-radius: @radius;
