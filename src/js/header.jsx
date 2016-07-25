@@ -3,11 +3,10 @@ import { maxWidth } from './config';
 
 function Header(){
   const styleHeader = {
-    maxWidth: maxWidth,
-    margin: 'auto'
+    maxWidth: maxWidth
   };
   return <div className="header" style={styleHeader}>
-    <div className="container-tweetping-github">
+  
       <div className="github" >
         <a href="https://github.com/lightstream-company/hashtag-battle" target="blank"><i className="fa fa-github" aria-hidden="true"></i></a>
         <p>View the code <br />on github</p>
@@ -16,12 +15,7 @@ function Header(){
         <p>Powered by</p>
         <p><a href="https://www.tweetping.net/" target="blank">Tweetping</a></p>
       </div>
-    </div>
-
-    <h1>#HASHTAG BATTLE</h1>
-    <div className="img">
-      <img src="images/vs.png" height="100%" width="100%"/>
-    </div>
+      <h1>#HASHTAG BATTLE</h1>
   </div>;
 }
 export default Header;
